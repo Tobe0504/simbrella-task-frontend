@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Simbrella Fintech Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A minimalist and user-friendly fintech dashboard designed to provide an intuitive interface for managing transactions and loans. This project is built with simplicity in mind, offering users a seamless experience while accessing financial data. I hope you enjoy using this app!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Transactions Page**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - Displays a detailed list of all user transactions.
+  - Includes search and filter functionalities for efficient data retrieval.
+  - Summarizes transaction data with key metrics (e.g., total income, total expenditure).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Loans Page**:
 
-### `npm test`
+  - Overview of active, and closed loans.
+  - Easy-to-navigate details for loan status, amounts, and due dates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Minimalist Design**:
+  - Clean UI/UX principles ensure easy readability and navigation.
+  - Responsive layout for both desktop and mobile users.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ideology
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I believe in keeping the frontend as loght as possible, which is why I believe in writing code from scratch as much as possible instead of uitlizing libraries and more dependencies. This aids in making sure user experience is top-notch and the app is not too heavy on the client. Most of the components were created with normal Javascript code as pooosed to node libraries.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Frontend**: React Typescript, Tailwind CSS
+- **Backend**: Node.js, Express.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fintech-dashboard.git
+   ```
