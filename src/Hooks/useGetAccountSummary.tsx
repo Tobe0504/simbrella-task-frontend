@@ -1,7 +1,7 @@
 import { AxiosResponse } from "axios";
 import { useState, useEffect } from "react";
-import { getAccountSummary, getAllTransactions } from "../Services/services";
-import { accountSummaryType, transactionTypes } from "../Utilities/types";
+import { getAccountSummary } from "../Services/services";
+import { accountSummaryType } from "../Utilities/types";
 
 export const useAccountSummary = () => {
   const [loading, setLoading] = useState(true);

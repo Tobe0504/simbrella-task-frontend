@@ -1,5 +1,4 @@
 "use client";
-import Input from "../Components/Input";
 import Close from "../Assests/Svgs/CloseIcon";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../Assests/Images/simbrellaLogo.svg";

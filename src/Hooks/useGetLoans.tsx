@@ -1,7 +1,7 @@
 import { AxiosResponse } from "axios";
 import { useState, useEffect } from "react";
-import { getAllLoans, getAllTransactions } from "../Services/services";
-import { loanTypes, transactionTypes } from "../Utilities/types";
+import { getAllLoans } from "../Services/services";
+import { loanTypes } from "../Utilities/types";
 
 export const useGetLoan = () => {
   const [loading, setLoading] = useState(true);

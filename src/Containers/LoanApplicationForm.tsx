@@ -27,15 +27,6 @@ const LoanApplicationForm = () => {
   const [loanTerm, setLoanTerm] = useState("");
   const [bankName, setBankName] = useState("");
 
-  //   Utils
-  const dropdownSetterFunction = (prop: string) => {
-    if (prop) {
-      setFormData((prevState) => {
-        return { ...prevState, prop };
-      });
-    }
-  };
-
   //   Effects
   useEffect(() => {
     if (employmentStatus) {

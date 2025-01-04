@@ -1,15 +1,10 @@
-import React, { useMemo, useState } from "react";
+import { useMemo } from "react";
 import AmountDetailsCard from "../Components/AmountDetailsCard";
 import Loader from "../Components/Loader";
-import Modal from "../Components/Modal";
 import SectionsHeader from "../Components/SectionsHeader";
 import Table from "../Components/Table";
-import { setAllModalsFalse } from "../Helpers/setAllModalsFalse";
 import { useGetTransactions } from "../Hooks/useGetTransactions";
 import AppLayout from "../Layouts/AppLayout";
-import { getAllTransactions } from "../Services/services";
-import { genericModalType } from "../Utilities/types";
-import LoanApplicationForm from "./LoanApplicationForm";
 
 const tableHeader = [
   "Reference",

@@ -1,4 +1,3 @@
-import { AppContext } from "../Context/AppContext";
 import { useAccountSummary } from "../Hooks/useGetAccountSummary";
 import { useGetLoan } from "../Hooks/useGetLoans";
 import { useGetTransactions } from "../Hooks/useGetTransactions";
